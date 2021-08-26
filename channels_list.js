@@ -39,7 +39,7 @@ async function getapi(url) {
     var a = document.createElement('a');
     a.setAttribute("href",sony[i]);
     a.appendChild(div);
-    div.className = 'channel';
+    div.className = 'channel sony';
     div.appendChild(img);
     ch_list.appendChild(a);
     }
