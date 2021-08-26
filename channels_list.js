@@ -20,10 +20,13 @@ async function getapi(url) {
     for(let i=0; i<90; i++)
     {
     var div = document.createElement('div');
+    var img=document.createElement('img');
+    var img_val = "https://akamaividz2.zee5.com/image/upload/w_264,h_149,c_scale,f_webp,q_auto:eco/resources/"+data.items[i].id+"/channel_list/"+data.items[i].list_image;
+    img.setAttribute("src",img_val);
     div.id = data['items'][i].id;
-    div.innerHTML = data['items'][i].title;
     div.addEventListener("click",function (){view(this.id)});
     div.className = 'channel';
+    div.appendChild(img);
     ch_list.appendChild(div);
     }
     
