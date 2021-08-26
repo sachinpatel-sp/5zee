@@ -6,7 +6,7 @@ async function view(id)
 {
     const get_token= await (await fetch(token_url)).json();
     const m3u8= await (await fetch(m3u8_link+id)).json();
-    window.open(m3u8.stream_url_hls+get_token.video_token,'_parent');
+    window.open(m3u8.stream_url_hls+get_token.video_token,'_blank');
 }
 
 async function getapi(url) {
