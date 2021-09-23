@@ -17,7 +17,7 @@ async function getapi(url) {
     // Storing data in form of JSON
     let data = await response.json();
 
-    const sony = ["https://07.smartcric.eu/mobile/stream2_320p/playlist.m3u8?id=7&pk=69f41237da4c2dc5628443b6aafe69ee83843029f26df31d20d93708cff0b163","http://103.217.221.64/snehtv","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
+    const sony = ["http://nwbz1u.ecm.tm/806B6CF/89181e/SK_AU_Fox_Sports_501/tracks-v1a1/index.m3u8?token=0558356b27398f74c6bf8c38eb01782ca657f46036bac31f9cfbf54ca92a57a759676626485e5874bf63894c2185a6aaf5dc2e24e8cb28eaf92e19c115c001a3e04ae108ccddd1c9e1e3d987bf3f19c96baa635670af3eea1262c962318d3b1a467e0b8126a01af07da71b2ccb3749&mac=00:1A:79:3A:6B:91&ip=202.134.10.142&magic_server=MAIN_MP","http://103.217.221.64/snehtv","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8",
                 "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8",
