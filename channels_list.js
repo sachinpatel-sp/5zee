@@ -17,7 +17,7 @@ async function getapi(url) {
     // Storing data in form of JSON
     let data = await response.json();
 
-    const sony = ["https://35.smartcric.eu/mobile/stream2_320p/playlist.m3u8?vidictid=1890017434&id=7&pk=570e815f1fd48cbe534388523c82397d3d85337262eda4d717f7a7971931af8e","http://103.217.221.64/snehtv","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
+    const sony = ["https://39.smartcric.eu/mobile/stream2_320p/playlist.m3u8?vidictid=189012661577&id=7&pk=a8f8f2e45d4cafd19123c9fdeebe40097de7c5c7fa465cc65135f5f5245c1d4a","http://103.217.221.64/snehtv","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8",
                 "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8",
