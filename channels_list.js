@@ -1,4 +1,4 @@
-const api_url="https://catalogapi.zee5.com/v1/channel?sort_by_field=channel_number&page=1&page_size=90&country=IN&translation=en&languages=en,hi";
+const api_url="https://catalogapi.zee5.com/v1/channel?sort_by_field=channel_number&page=1&page_size=126&country=IN&translation=en&languages=en,hi,mr,ta,te";
 const token_url="https://useraction.zee5.com/token/live.php";
 const m3u8_link="https://catalogapi.zee5.com/v1/channel/"
 
@@ -43,7 +43,7 @@ async function getapi(url) {
     div.appendChild(img);
     ch_list.appendChild(a);
     }
-    for(let i=0; i<90; i++)
+    for(let i=0; i<126; i++)
     {
     var div = document.createElement('div');
     var img=document.createElement('img');
