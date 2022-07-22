@@ -17,7 +17,7 @@ async function getapi(url) {
     // Storing data in form of JSON
     let data = await response.json();
 
-    const sony = ["https://pubads.g.doubleclick.net/ssai/event/SU7iSpwoS3yf6HkUne_Vhg/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/wN0bVs8wS9-yv6vL9G-tGQ/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
+    const sony = ["https://d1zq5no55rw5ua.cloudfront.net/out/v1/20559c31aa284e8c8682b886e933287a/index_6.m3u8","https://pubads.g.doubleclick.net/ssai/event/wN0bVs8wS9-yv6vL9G-tGQ/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8",
                 "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8",
@@ -25,7 +25,7 @@ async function getapi(url) {
         "https://pubads.g.doubleclick.net/ssai/event/4Jcu195QTpCNBXGnpw2I6g/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/rPzF28qORbKZkhci_04fdQ/master.m3u8",
     "https://pubads.g.doubleclick.net/ssai/event/H_ZvXWqHRGKpHcdDE5RcDA/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u8"];
 
-    const sony_img =["https://www.insidesport.in/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-01-at-10.44.09-PM.webp?resize=768,513","https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/IND_V_ENG_1T20_Hindi_sponsor_portrait_thumb_rev.jpg","http://sptnaecdnems10.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png","http://sptnaecdnems07.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",
+    const sony_img =["https://img.cricketnmore.com/uploads/2022/07/india-vs-west-indies,-1st-odi---cricket-match-prediction,-fantasy-xi-tips-probable-xi1.jpeg","https://res.cloudinary.com/Sony-liv/image/fetch/c_fill,e_contrast:30,f_auto,fl_lossy,h_494,q_auto:low,w_344/e_brightness:10/https://origin-staticv2.sonyliv.com/portrait_thumb/IND_V_ENG_1T20_Hindi_sponsor_portrait_thumb_rev.jpg","http://sptnaecdnems10.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png","http://sptnaecdnems07.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",
                         "http://sptnaecdnems07.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png","http://sngprecdnems09.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Telugu.png",
                         "http://sptnaecdnems08.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",
                     "http://sptnaecdnems07.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png","http://sptnacdnems02.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SD.png",
