@@ -17,7 +17,7 @@ async function getapi(url) {
     // Storing data in form of JSON
     let data = await response.json();
 
-    const sony = ["https://livehin.fancode.com/hls/live/2093039/686hindi49749ta-di/master.m3u8","https://livehin.fancode.com/hls/live/2093039/686hindi49749ta-di/1080p.m3u8","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
+    const sony = ["https://livehin.fancode.com/hls/live/2093039/5270hindi49752ta-no/master.m3u8","https://livehin.fancode.com/hls/live/2093039/5270hindi49752ta-no/1080p.m3u8","https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8",
                     "https://pubads.g.doubleclick.net/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8",
                 "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8","https://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8",
